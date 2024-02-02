@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+    android:background="@color/bg">
+
+        <TextView
+            android:id="@+id/login_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:layout_marginBottom="60dp"
+            android:gravity="center"
+            android:text="@string/connectez_vous"
+            android:textColor="#FF3700B3"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/email_field"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:hint="@string/adresse_email"
+            android:inputType="textEmailAddress"
+            android:textColor="@color/black"
+            tools:ignore="Autofill" />
+
+        <EditText
+            android:id="@+id/mdp_field"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/mot_de_passe"
+            android:inputType="textEmailAddress"
+            tools:ignore="Autofill" />
+
+        <Button
+            android:id="@+id/btn_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:padding="15dp"
+            android:text="@string/se_connecter"
+            android:textSize="15sp" />
+
+        <Button
+            android:id="@+id/btninsc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:background="#00FFFFFF"
+            android:text="@string/pas_encore_inscrit_nincrivez_vous_ici"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+
+    </LinearLayout>

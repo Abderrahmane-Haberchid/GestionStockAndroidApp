@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:gravity="center"
+    tools:context=".dashboard"
+    android:background="@color/bg">
+
+    <TextView
+        android:id="@+id/welcome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif"
+        android:text="@string/welcome"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <ImageButton
+        android:id="@+id/add_btn"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_below="@+id/welcome"
+        android:layout_marginTop="50dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginEnd="30dp"
+        android:background="@color/bg"
+        android:src="@drawable/ic_add"/>
+
+    <ImageButton
+        android:id="@+id/search_btn"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_below="@+id/welcome"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:layout_toEndOf="@+id/add_btn"
+        android:background="@color/bg"
+        android:src="@drawable/ic_search" />
+
+
+
+    <ImageButton
+        android:id="@+id/statis_btn"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_below="@+id/search_btn"
+        android:layout_marginTop="50dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginEnd="30dp"
+        android:background="@color/bg"
+        android:src="@drawable/ic_statis"/>
+
+   <ImageButton
+        android:id="@+id/account_btn"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_below="@+id/add_btn"
+       android:layout_toEndOf="@id/statis_btn"
+        android:layout_marginTop="50dp"
+        android:background="@color/bg"
+        android:src="@drawable/ic_account"/>
+
+    <TextView
+        android:id="@+id/mail_field"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        />
+
+</RelativeLayout>

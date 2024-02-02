@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/white"
+    >
+            <LinearLayout
+                android:id="@+id/firstDiv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+               >
+
+            <TextView
+                android:id="@+id/tit"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="15sp"
+                android:textColor="@color/black"
+                android:text="Titre de l'article"/>
+
+                <TextView
+                    android:id="@+id/qteV"
+                    android:layout_width="40dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="13sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:layout_marginStart="70dp"
+                    android:text="Qte: "/>
+
+                <TextView
+                android:id="@+id/qte"
+                android:layout_width="20dp"
+                android:layout_height="wrap_content"
+                android:textSize="13sp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:text="40"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/secondeDiv"
+                android:layout_below="@+id/firstDiv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp">
+
+            <TextView
+                android:id="@+id/cat"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="Categorie"
+                android:textSize="15sp"
+                android:textColor="@color/black"/>
+
+
+                <TextView
+                    android:id="@+id/etat"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="En Stock"
+                    android:textStyle="bold"
+                    android:layout_marginStart="70dp"
+                    android:textColor="@color/green"
+                    android:textSize="15sp"
+                    />
+
+            </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/thirdDiv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/secondeDiv"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/date"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:textColor="@color/black"
+                android:text="12/03/2022"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/desc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone"/>
+        <TextView
+            android:id="@+id/idprod"
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+</RelativeLayout>
+

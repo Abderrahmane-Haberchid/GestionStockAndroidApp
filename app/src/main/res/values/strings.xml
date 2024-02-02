@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="seconnecter">Se Connecter</string>
+    <string name="inscription">Inscription</string>
+    <string name="nom">Nom</string>
+    <string name="email">Email</string>
+    <string name="mot_de_passe">Mot de passe</string>
+    <string name="confirmer_mot_de_passe">Confirmer mot de passe</string>
+    <string name="enregistrer">Enregistrer</string>
+    <string name="connectez_vous">Connectez-Vous</string>
+    <string name="adresse_email">Adresse Email</string>
+    <string name="se_connecter">Se connecter</string>
+    <string name="pas_encore_inscrit_nincrivez_vous_ici">Pas encore inscrit ?\nIncrivez-vous ici !</string>
+    <string name="bienvenue_au_tableau_de_bord">Bienvenue au Tableau de Bord</string>
+    <string name="titre">Titre</string>
+    <string name="ajouter_produit">Ajouter Produit</string>
+    <string name="categorie">Categorie</string>
+    <string name="quantit">Quantité</string>
+    <string name="description_du_produit">Description du produit</string>
+    <string name="quantité">Quantité</string>
+    <string name="gestiostock">Gestion Stock</string>
+    <string name="welcome">Bienvenue au Tableau de Bord</string>
+    <string name="todo">TODO</string>
+    <string name="afficher_tout_les_produits">Afficher tout les produits</string>
+    <string name="chercher">chercher</string>
+
+
+</resources>

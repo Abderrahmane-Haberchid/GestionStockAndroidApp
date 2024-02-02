@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".statis"
+    android:background="@color/bg">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center">
+
+        <TextView
+            android:id="@+id/nb1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="100"
+            android:textColor="@color/bleu"
+            android:textStyle="italic|normal|bold"
+            android:textSize="24sp"/>
+        <TextView
+            android:id="@+id/tv1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/bleu"
+            android:textStyle="italic|normal"
+            android:text="Produits Disponibles"
+            android:layout_marginTop="30dp"
+            android:gravity="center"
+            android:textSize="24sp"/>
+
+            <TextView
+                android:id="@+id/nb2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="100"
+                android:textColor="@color/red"
+                android:textStyle="italic|normal|bold"
+                android:layout_marginTop="70dp"
+                android:textSize="24sp"/>
+        <TextView
+            android:id="@+id/tv2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Produits en Rupture de Stock"
+            android:textColor="@color/red"
+            android:textStyle="italic|normal"
+            android:textSize="24sp"
+            android:layout_marginTop="30dp"/>
+
+            <TextView
+                android:id="@+id/nb3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="100"
+                android:textColor="@color/purple_500"
+                android:textStyle="italic|normal|bold"
+                android:layout_marginTop="70dp"
+                android:textSize="24sp"/>
+        <TextView
+        android:id="@+id/tv3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+            android:textColor="@color/purple_500"
+            android:textStyle="italic|normal"
+        android:layout_marginTop="30dp"
+        android:text="Produits en rupture"
+        android:textSize="24sp"/>
+
+    </LinearLayout>
+</LinearLayout>

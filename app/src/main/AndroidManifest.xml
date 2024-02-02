@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.myapplication">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/gestiostock"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MyApplication"
+        tools:targetApi="31">
+        <activity
+            android:name=".statis"
+            android:exported="false"
+            android:parentActivityName=".dashboard"/>
+        <activity
+            android:name=".user_detail"
+            android:exported="false"
+            android:parentActivityName=".compte"/>
+        <activity
+            android:name=".allUser"
+            android:exported="false" />
+        <activity
+            android:name=".compte"
+            android:exported="false"
+            android:parentActivityName=".dashboard" />
+        <activity
+            android:name=".update_item"
+            android:exported="false" />
+        <activity
+            android:name=".product_detail"
+            android:exported="false"
+            android:parentActivityName=".searchArt" />
+
+        <meta-data
+            android:name="com.google.android.actions"
+            android:resource="@xml/actions" />
+
+        <activity
+            android:name=".searchArt"
+            android:exported="false"
+            android:parentActivityName=".dashboard" />
+        <activity
+            android:name=".addArt"
+            android:exported="false"
+            android:parentActivityName=".dashboard" />
+        <activity
+            android:name=".dashboard"
+            android:exported="false" />
+        <activity
+            android:name=".register"
+            android:exported="false"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

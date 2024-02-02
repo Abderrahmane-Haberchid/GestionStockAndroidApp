@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical"
+    android:orientation="vertical"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    android:background="@color/bg" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="50dp"
+        android:text="@string/inscription"
+        android:textSize="40sp"
+        android:gravity="center"/>
+
+    <EditText
+        android:id="@+id/name_txt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="@string/nom"
+        android:textColorHint="@color/black"
+        tools:ignore="Autofill" />
+
+    <EditText
+        android:id="@+id/email_txt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:hint="@string/email"
+        android:textColorHint="@color/black"
+        tools:ignore="Autofill,TextFields" />
+
+    <EditText
+        android:id="@+id/mdp_txt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:hint="@string/mot_de_passe"
+        android:textColorHint="@color/black"
+        tools:ignore="Autofill" />
+
+    <EditText
+        android:id="@+id/cmdp_txt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:hint="@string/confirmer_mot_de_passe"
+        android:textColorHint="@color/black"
+        tools:ignore="Autofill" />
+
+    <Button
+        android:id="@+id/valider_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/enregistrer" />
+
+</LinearLayout>
